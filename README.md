@@ -1,4 +1,4 @@
 # flask_sql_html
 
 
-./image/login.jpg
+./image/login.png

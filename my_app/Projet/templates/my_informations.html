@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My informations </title>
+</head>
+
+<body>
+    <title> Bienvenu sur votre compte </title>
+
+    <center>
+        <div class="wrapper"> 
+            <div class="card">
+
+                <h4> Mes informations
+
+                </h4>
+
+                    <img src='{{lieu_image}}', width=175 />
+
+                    {% for result_req_user_information in result_req_user_informations %}
+                    <h2> {{ result_req_user_informations[0] }} {{ result_req_user_informations[1] }}
+
+                    </h2>
+
+                    <p class= "title"> {{ result_req_user_informations[2] }}
+
+                    </p>
+                    <P> 
+                        {{ result_req_user_informations[9] }}
+                    </P>
+
+                    <p> Adresse</p>
+                    <p> {{ result_req_user_informations[3] }} - {{ result_req_user_informations[4] }} {{ result_req_user_informations[5] }}</p>
+                    <p> {{ result_req_user_informations[6] }}, {{ result_req_user_informations[7] }}</p>
+
+                    <p> {{ result_req_user_informations[8] }}</p>
+
+                    {% endif %}
+
+                    <div> 
+                        <form method=POST enctypt= multipart/part-data action="">
+                        <input type=file name=image>
+                        <input type="submit" value=Uploader> 
+                        </form>
+                    </div>
+
+            </div>
+        </div>
+    </center>
+
+    
+
+
+</body>
+</html>

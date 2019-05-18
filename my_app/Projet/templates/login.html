@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Se connecter</title>
+    
+</head>
+{% if error %}
+    <p> class= error><strong>Erreur:</strong> {{ error }}
+    {% endif %}
+    </p>
+<body>
+   
+    <center>
+        <div class = "wrapper">
+            <form class="Login" method="POST" action="app.py">
+            <p class="title">Se connecter</p>
+            
+            <label for="e_mail"> Email</label>
+            <input type="text" placeholder="Email" name="e_mail" maxlength="40" required autofocus/>    </p>
+            
+            <label for=mot_de_passe> Mot de passe</label>
+            <i class="fa fa-user"></i>
+            <input type="password" placeholder="Mot de passe" name= "mot_de_passe" maxlength="40" required />
+            <i class="fa fa-key"></i>
+
+            <p class="submit">
+                <button type="submit" value="Submit">Connexion</button>
+            </p>
+
+            <a href="http://127.0.0.1:4040/registration"<h5>Créer un compte</a>
+        </form>
+        </div>
+            </form>
+
+    </center>
+</body>
+</html>
+
+
+</html>

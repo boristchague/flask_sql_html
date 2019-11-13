@@ -8,8 +8,17 @@
 </head>
 <body>
   <h1>flask_sql_html</h1>
-  <img src="Image/login.PNG">
-    
+   
+   
+   <div class="row">
+      <div class="column">
+        <img src="Image/Registration.PNG" alt="Registration" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="Image/login.PNG" alt="Logins" style="width:100%">
+      </div>
+  </div>
+  
 </body>
 </html>
 

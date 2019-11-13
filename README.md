@@ -8,7 +8,7 @@
 </head>
 <body>
   <h1>flask_sql_html</h1>
-  <img src="../Image/login.PNG" width="50" height="50">
+  <img src="Image/login.PNG" width="50" height="50">
     
 </body>
 </html>

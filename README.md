@@ -11,7 +11,7 @@
 </head>
 <body>
   
-  <img src="../images/balise/rouge.gif" width="50" height="50">
+  <img src="../Images/Registration.png" width="50" height="50">
     
 </body>
 </html>

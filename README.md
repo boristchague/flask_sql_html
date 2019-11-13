@@ -7,7 +7,7 @@
     
 </head>
 <body>
-  <title>flask_sql_html</title>
+  <h1>flask_sql_html</h1>
   <img src="../Images/Registration.PNG" width="50" height="50">
     
 </body>

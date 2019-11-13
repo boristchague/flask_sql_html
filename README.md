@@ -1,6 +1,3 @@
-# flask_sql_html
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,8 +7,9 @@
     <title>Document</title>
 </head>
 <body>
+    <h1> flask_sql_html </h1>
   
-  <img src="../Images/Registration.png" width="50" height="50">
+  <img src="../Images/Registration.PNG" width="50" height="50">
     
 </body>
 </html>

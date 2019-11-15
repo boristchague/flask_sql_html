@@ -12,7 +12,9 @@
    
    <div class="row">
       <div class="column">
-        <img src="Image/Registration.PNG" alt="Registration" style="width:100%">
+          <link src="my_app/Projet/templates/enregister.html"> 
+                <img src="Image/Registration.PNG" alt="Registration" style="width:100%">              
+          </link>
       </div>
       <div class="column">
         <img src="Image/login.PNG" alt="Logins" style="width:100%">
